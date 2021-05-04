@@ -16,9 +16,6 @@ const sql = ` SELECT
               WHERE d.department_id IN (SELECT department_id FROM employees GROUP BY department_id HAVING COUNT(department_id) >= 2)
               GROUP BY c.country_name, l.city;
 
-           
-
-
 `;
 
 

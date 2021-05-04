@@ -6,7 +6,7 @@ const sql = ` SELECT
                 department_name, CONCAT(first_name,' ', last_name) "Manager"
             FROM departments d
             JOIN employees m
-              ON d.manager_id = m.employee_id
+              ON d.manager_id = m.employee_id;
            
 
 
