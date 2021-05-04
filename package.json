@@ -1,0 +1,23 @@
+{
+  "name": "Garcia_Diang_Task4",
+  "version": "1.0.0",
+  "description": "Garcia Diang Task 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garcia-christian/GarciaDiang_Task4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garcia-christian/GarciaDiang_Task4/issues"
+  },
+  "homepage": "https://github.com/garcia-christian/GarciaDiang_Task4#readme",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
+}
